@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.nav{
+    width:auto;
+    height: 60px;
+    position:fixed;
+    top:1%;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity .5s;
+    background: linear-gradient(to right,rgb(2, 2, 27),rgb(239, 232, 232));
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid black;
+}
+.nav button{
+    margin: 5px;
+}
+.nav input{
+    margin: 5px;
+}
+.nav div{
+    margin: 5px;
+}
+.nav img{
+    margin: 5px;
+    width:50px;
+}
+.nav:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.color{
+    height:35px;
+    width: 35px;
+    background-color:black;
+    border-radius: 50%;
+    border:3px solid white;
+    transition: transform .6s;
+}
+.color:hover{
+    transform:scale(1.5)
+}
+.color:nth-child(1){
+    background-color:#fff;
+}
+.color:nth-child(2){
+    background-color: red;
+}
+.color:nth-child(3){
+    background-color: orange;
+}
+.color:nth-child(4){
+    background-color: purple;
+}
+.color:nth-child(5){
+    background-color: yellow;
+}
+.color:nth-child(6){
+    background-color: yellowgreen;
+}
+.color:nth-child(7){
+    background-color: green;
+}
+.color:nth-child(8){
+    background-color: #000;
+}
+button{
+    border:none;
+    outline: none;
+    padding: 1em 1em;
+    border-radius: 15px;
+    background-color: rgb(75, 6, 6);
+    color: #fff;
+    border: 2px solid rgb(241, 13, 13);
+    font-size: medium;
+    font-weight:bold;
+}
+.save{
+    background-color: rgb(31, 72, 206);
+}
+input[type="color"]{
+    width: 50px;
+    height:45px;
+}
+#ageOutpudId{
+    color:white;
+    font-weight: bold;
+    font-size: 13pt;
+}
+#ageInputId{
+    background: linear-gradient(to right,rgb(238, 9, 1),rgb(228, 169, 4));
+    outline: none;
+    /* -webkit-appearance:none; */
+    cursor:pointer;
+    border-radius:5px;
+    border: 2px solid white;
+}

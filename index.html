@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <!-- <img src="Chatlogo.jpeg" alt="Monkey painting"> -->
+    <div class="nav">
+        <!-- <img src="Chatlogo.jpeg" alt="Monkey painting"> -->
+        <div class="color" data-clr="#fff"></div>
+        <div class="color" data-clr="red"></div>
+        <div class="color" data-clr="orange"></div>
+        <div class="color" data-clr="purple"></div>
+        <div class="color" data-clr="yellow"></div>
+        <div class="color" data-clr="yellowgreen"></div>
+        <div class="color" data-clr="green"></div>
+        <div class="color" data-clr="#000"></div>
+        <button class="clear">Clear</button>
+        <button class="save">Save</button>
+        <input type="color" value="#FFFFFF" id="favcolor">
+        <input type="range" name="ageInputName" id="ageInputId" value="5" min="1" max="15" oninput="ageOutputId.value=ageInputId.value">
+        <output id="ageOutputId"></output>
+    </div>
+</body>
+</html>
