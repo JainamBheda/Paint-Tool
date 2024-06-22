@@ -1,6 +1,8 @@
 
 # Paint Tool
 
+Site is live at https://jainambheda.github.io/Paint-Tool/
+
 A simple, web-based paint tool created using HTML, CSS, and JavaScript. This tool allows users to draw, Clear, and save their artwork directly in the browser.
 
 ## Features
